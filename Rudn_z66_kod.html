@@ -1,0 +1,66 @@
+<textarea rows="75" cols="165">
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kuba Rudnik</title>
+        <meta charset utf-8>
+        <style>
+            .tabelka
+            {
+                border: 1px black solid;
+                padding: 0;
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pseudoelement :first-line</h1>
+        <h2>Obejmuje formatowanie całej pierwszej linni<br>przykład:</h2><br>
+        <div class="tabelka">
+            p<br>
+{<br>
+color:navy;<br>
+font-size:12pt;<br>
+}<br>
+p:first-line<br>
+{<br>
+color:red;<br>
+font-size:20pt;<br>
+font-weight:bold;<br>
+}<br>
+        </div>
+        <h1>Pseudoelementy :after oraz :before.</h1>
+        <h2>Oba elementy służą do umieszczania tekstu przed i za formatowanym elementem strony<br>przykład:</h2>
+        <div class="tabelka">
+            p:before<br>
+{<br>
+content:"TO SĄ ĆWICZENIA";<br>
+font-size:15pt;<br>
+font-style:italic;<br>
+font-weight:bold;<br>
+}<br>
+p:after<br>
+{<br>
+content:"AUTOR Król Lew";<br>
+font-size:15pt;<br>
+font-style:italic;<br>
+font-weight:bold;<br>
+}<br>
+        </div>
+        <h1>Pseudoelement :first-letter</h1>
+        <h2>pozwala na formatowanie pierwszej litery w bloku tekstu<br>przykład:</h2>
+        <div class="tabelka">
+            p<br>
+{<br>
+color:navy;<br>
+font-size:30pt;<br>
+}<br>
+p:first-letter<br>
+{<br>
+color:red;<br>
+font-size:100pt;<br>
+}<br>
+        </div>
+    </body>
+</html>
+</textarea>

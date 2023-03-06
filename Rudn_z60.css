@@ -1,0 +1,19 @@
+/*Kuba Rudnik*/
+div 
+{
+    width: 619px;
+    background-color: #008000;
+    font-size: 19mm;
+}
+#blok1_scibiorski:hover
+{
+    background-color:#0000FF;
+}
+#blok2_scibiorski:hover
+{
+    background-color:#c0c0c0;
+}
+#blok3_scibiorski:hover
+{
+    background-color:#00FF00;
+}
